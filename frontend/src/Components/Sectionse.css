@@ -1,0 +1,56 @@
+.section7 {
+  background-color: #8d7b68;
+  display: block;
+  width: 100%;
+  height: 600px;
+  padding: 70px 0 0 0;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.sectionse-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.sectionse-text p {
+  color: #f3f0e7;
+}
+
+.below-text {
+  font-size: 40px;
+}
+
+.product-img1 {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+
+}
+
+
+
+@media (max-width: 1000px) {
+
+  .product-card {
+    max-width: 400px;
+    height: 300px;
+  }
+
+  .product-image {
+    height: 100px;
+  }
+
+  .text-contact,
+  p {
+    max-width: 400px;
+  }
+
+}
