@@ -43,7 +43,6 @@ const Footer = () => {
             <li><Link to="/readAllItem" className="footer-link">Shop</Link></li>
             <li><Link to="/about" className="footer-link">About BloomSkin</Link></li>
             <li><Link to="/contact" className="footer-link">Contact Us</Link></li>
-            <li>FAQ</li>
           </ul>
         </div>
 
